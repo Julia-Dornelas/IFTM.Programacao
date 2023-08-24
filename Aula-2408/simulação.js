@@ -1,0 +1,36 @@
+/*II) Esse código tem o objetivo de simular um carrinho de compras.
+Faça um código em JS que receba e armazene os dados de 5
+PRODUTOS que foram "colocados" no carrinho. Cada produto tem um nome, um preço e um local de fabricação (Brazil ou Exterior). Após realizadas as entradas,
+mostre na tela:
+1- Todos os dados de todos os produtos
+2- O valor do produto mais caro
+3- O número de produtos fabricados no Brasil e o número de produtos fabricados no exterior
+4- A soma de todos os produtos.*/
+
+let nome 
+let preco 
+let fabricacao 
+let compra = []
+let caro = 0
+
+for(let i = 0; i<=4; i++){
+    nome = prompt("Qual o nome do produto?")
+    preco = parseInt(prompt("Qual o valor do produto?"))
+    fabricacao = prompt("Qual o local de fabricacao do produto?")
+
+    if(preco>caro){
+        caro=preco
+    }
+
+let produto = {
+    Nome: nome,
+    Preco: preco,
+    Fabricacao:fabricacao   
+   
+}
+    console.log(produto)
+
+
+    compra.push(produto)
+}   
+  console.log('Valor do produto mais caro:', caro)
