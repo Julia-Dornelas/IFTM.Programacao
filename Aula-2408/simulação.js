@@ -12,25 +12,61 @@ let preco
 let fabricacao 
 let compra = []
 let caro = 0
+let ProdutosTotal = []
+let Brasil = 0
+let Exterior = 0
 
+//Receber dados:
 for(let i = 0; i<=4; i++){
     nome = prompt("Qual o nome do produto?")
     preco = parseInt(prompt("Qual o valor do produto?"))
     fabricacao = prompt("Qual o local de fabricacao do produto?")
 
-    if(preco>caro){
-        caro=preco
+    let produto = {
+        Nome: nome,
+        Preco: preco,
+        Fabricacao: fabricacao   
     }
 
-let produto = {
-    Nome: nome,
-    Preco: preco,
-    Fabricacao:fabricacao   
-   
+    ProdutosTotal.push(produto)
+}
+
+for(let i = 0; i<=4; i++){
+
+    //1
+    console.log("\nNome: " + ProdutosTotal[i].Nome + "\nPreco: " + ProdutosTotal[i].Preco + "\nFabricação: " + ProdutosTotal[i].Fabricacao)
+    
+    //2
+    if(i == 0){
+        caro = ProdutosTotal[i].Preco
+    }
+    else if(ProdutosTotal[i].Preco > caro ){
+        caro = ProdutosTotal[i].Preco
+    }
+
+    //3
+    
+}
+
+
+
+
+
+
+
+
+/*    //Valor mais caro:
+if(preco>caro){
+    caro=preco
+}
+
+//Verificar localidade:
+if(fabricacao.localeCompare){
+
 }
     console.log(produto)
-
-
     compra.push(produto)
-}   
-  console.log('Valor do produto mais caro:', caro)
+    
+    
+console.log('Valor do produto mais caro:', caro)
+console.log("Localidades: \n"+"Brasil: \n"+"Exterior:\n",)*/
