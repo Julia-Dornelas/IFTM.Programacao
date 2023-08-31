@@ -15,6 +15,7 @@ let caro = 0
 let ProdutosTotal = []
 let Brasil = 0
 let Exterior = 0
+let soma = 0
 
 //Receber dados:
 for(let i = 0; i<=4; i++){
@@ -45,28 +46,19 @@ for(let i = 0; i<=4; i++){
     }
 
     //3
-    
+    if(ProdutosTotal[i].Fabricacao.localeCompare("brasil","pt-br", {sensitivity: "base"}) == 0){
+        Brasil++
+    }
+    else if(ProdutosTotal[i].Fabricacao.localeCompare("exterior","pt-br", {sensitivity: "base"}) == 0){
+        Exterior++
+    }
+
+    //4
+    soma += ProdutosTotal[i].Preco 
 }
 
+console.log("O valor mais caro eh:" + caro)
+console.log("Fabricacao: \n" + "Brasil: " + Brasil + "\nExterior: " + Exterior)
+console.log("A soma dos valores eh: " + soma)
 
 
-
-
-
-
-
-/*    //Valor mais caro:
-if(preco>caro){
-    caro=preco
-}
-
-//Verificar localidade:
-if(fabricacao.localeCompare){
-
-}
-    console.log(produto)
-    compra.push(produto)
-    
-    
-console.log('Valor do produto mais caro:', caro)
-console.log("Localidades: \n"+"Brasil: \n"+"Exterior:\n",)*/
