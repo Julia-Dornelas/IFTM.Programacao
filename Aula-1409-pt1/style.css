@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+body {
+  margin: auto;
+  text-align: center;
+}
+.tituloPrincipal,
+.tituloSec,
+.texto {
+  font-family: "Arial";
+}
+.tituloPrincipal {
+  padding: 10px;
+  color: #227326;
+}
+.tituloSec {
+  padding: 15px;
+}

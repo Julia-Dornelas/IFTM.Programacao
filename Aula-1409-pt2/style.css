@@ -1,0 +1,22 @@
+#principal{
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    font-family: 'Arial';
+    border: 1px blue solid;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 12px;
+}
+p{
+    font-size: 14px;
+}
