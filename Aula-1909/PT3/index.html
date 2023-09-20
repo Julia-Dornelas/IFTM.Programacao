@@ -10,22 +10,31 @@
     
     <h1 class="principal">Cadastro de livros</h1>
 
-
-    <h2>Nome:</h2>
-    <input type="text" id="nomeLivro" placeholder="Nome do livro:">
-    <h3>Autor:</h3>
-    <input type="text" id="nomeAutor" placeholder="Nome do autor:">
-    <p>Quantidade de páginas:</p>
-    <input type="text" id="Npaginas" placeholder="Número de páginas">
-    <p>País de Lançamento:</p>
-    <input type="text" id="nomePais" placeholder="País de lançamento:">
-
-    <button id="evento">Geral livro</button>
-    <div>
-
-    </div>
-
-
+ <!--Receber livro-->
+ <label for="nomeLivro">Nome do Livro:</label>
+ <input type="text" id="nomeLivro"> <br>
+ <br>
+ <label for="autorLivro">Nome do autor:</label>
+ <input type="text" id="autorLivro">
+ <br>
+ <br>
+ <label for="numPaginas">Número de Páginas:</label>
+ <input type="number" id="numPaginas">
+ <br>
+ <br>
+ <label for="paisLancamento">País de Lançamento:</label>
+ <input type="text" id="paisLancamento">
+ <br>
+ <br>
+ <button id="gerarDiv">Gerar div com livro</button> <br> <br>
+ <br>
+  
+ <div id="livro-div">
+     <h2 id="livro-titulo"></h2>
+     <h3 id="livro-autor"></h3>
+     <p id="livro-informacoes"></p>
+ </div>
+ 
     <script src="main.js"></script>
 </body>
 </html>

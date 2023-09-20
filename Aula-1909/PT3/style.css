@@ -1,2 +1,22 @@
 
-/*CLASSES*/
+body {
+    font-family: Arial, sans-serif; 
+       text-align: center;
+}
+
+.principal {
+    color: purple;
+}
+
+#livro-div {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: auto;
+    max-width: 300px;
+    background-color: #f7f7f7;
+}
+
+#gerarDiv{
+    background-color: rgb(216, 163, 216);
+}
