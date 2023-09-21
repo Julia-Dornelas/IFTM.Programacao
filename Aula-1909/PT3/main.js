@@ -13,15 +13,19 @@ de páginas e o país de lançamento
        const nomeLivro = document.getElementById("nomeLivro").value;
        const autorLivro = document.getElementById("autorLivro").value;
        const numPaginas = document.getElementById("numPaginas").value;
-       const paisLancamento = document.getElementById("paisLancamento").value;
+       const paisLancamento = document.getElementById("paisLancamento").value;''
 
        // Atualiza o conteúdo da div com as informações do livro atual
        const livroTitulo = document.getElementById("livro-titulo");
        const livroAutor = document.getElementById("livro-autor");
-       const livroInformacoes = document.getElementById("livro-informacoes");
+       const livropgs = document.getElementById("livro-pgs");
+       const livropais = document.getElementById("livro-pais");
 
        livroTitulo.innerHTML = nomeLivro;
        livroAutor.innerHTML = `Autor: ${autorLivro}`;
-       livroInformacoes.innerHTML = `Número de Páginas: ${numPaginas} País de Lançamento: ${paisLancamento}`;
+       livropgs.innerHTML = `Número de Páginas: ${numPaginas}`;
+       livropais.innerHTML = `País de Lançamento: ${paisLancamento}`;
+
+
    });
 
