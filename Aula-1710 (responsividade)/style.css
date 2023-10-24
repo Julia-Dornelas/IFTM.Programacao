@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.produto{
+    border:2px solid rgb(101, 71, 128);
+    padding: 8px;
+    margin: 2px;
+    width: 400px;
+}

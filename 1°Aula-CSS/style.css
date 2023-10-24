@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+ div {
+  border: 4px rgb(0, 0, 0) solid;
+  margin: auto;
+  width: 1000px ;
+  padding: 50px;
+  background-color: black;
+  border-radius: 15px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200; 
+  background-image: url("img/css-code-e1517469545230.jpeg");
+  background-size: 100%; /*Tamanho da Imagem*/
+  color: rgb(255, 255, 255);
+  background-repeat: no-repeat; /*Quantas vezes a imagem vai repetir*/
+
+}
+h1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(12, 104, 153);
+  margin: 2px;
+  text-align: center; /*texto centralizado*/
+  border-radius: 30px;
+  padding: 7px;
+  
+}
+
+p {}
+
+/*DS's*/
+#insta {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Class*/
+.social {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social:hover{
+  background-color:rgb(4, 48, 72);
+  color: white;
+  transition: 1s;
+}

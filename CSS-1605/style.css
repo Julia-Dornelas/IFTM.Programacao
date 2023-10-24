@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+--corFundo: #DCB0FF;
+--corPrincipal: #A178DF;
+--corSecundaria:#FACCFF ;
+--corComplementar:#432581;
+}
+
+
+body {
+  background-color: var(--corFundo);
+  font-family: 'PT Serif', serif;
+}
+header {
+  background-color: var(--corComplementar);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  height: 200px;
+  border: 4px solid rgb(50, 8, 88);
+  font-weight: 400 bold;
+  border-radius: 10px;
+}
+footer{
+    text-align: center;
+    border: 4px solid black;
+    margin-top: 10px;
+    background-color: var(--corPrincipal);
+    font-weight:400;
+    font-style: italic;
+    border-radius: 10px;
+}
+footer p{
+    padding: 30px;
+}
+
+/*Class*/
+.titulo-header {
+  padding: 35px;
+  font-size: 50px;
+  border-radius: 10px;
+}
+.conteudo-filme {
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: var(--corPrincipal);
+    width: 48%;
+    display: inline-block;
+  }
+  .conteudo {
+    text-align: center;
+    margin-top: 10px;
+  }
+  

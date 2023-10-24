@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Forms 2</title>
+  </head>
+  <body>
+    <form action="pagina2.html" name="formulario" method="post">
+      <header>
+        <h1>IFTM - campus Patrocínio</h1>
+        <h2>Artigo Ciêntifico</h2>
+      </header>
+
+      <section>
+        <fieldset>
+          <h3>DADOS DO ALUNO:</h3>
+          <label for="nome"><h3>Nome:</h3></label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Seu nome e sobrenome."
+            required
+          />
+          <br />
+
+          <label for=""><h3>E-mail:</h3></label>
+          <input type="email" placeholder="Seuemail@exemplo.com.br" required />
+          <br />
+
+          <label for="Telefone"><h3>Telefone:</h3></label>
+          <input
+            type="tel"
+            name="telefone"
+            id="telefone"
+            placeholder="(00) 0 0000-0000"
+            required
+          />
+
+          <section>
+            <label for="text"><h3>Data de Nascimento:</h3></label>
+            <input type="date" required />
+            <br />
+          </section>
+          <section>
+            <label for=""><h3>Curso do estudante:</h3></label>
+            <input type="radio" name="Curso do estudante:" id="TINF" />Técnico
+            em Informática
+            <input type="radio" name="Curso do estudante:" id="TELE" />Técnico
+            em Eletrônica
+            <input type="radio" name="Curso do estudante:" id="TADM" />Técnico
+            em Administração
+            <input type="radio" name="Curso do estudante:" id="TCON" />Técnico
+            em Contabilidade
+            <br />
+          </section>
+        </fieldset>
+      </section>
+      <br />
+      <section>
+        <fieldset>
+          <h3>ENDEREÇO:</h3>
+
+          <label for="">Estado:</label>
+          <select name="" id="">
+            <option value="">AC</option>
+            <option value="">AL</option>
+            <option value="">AP</option>
+            <option value="">AM</option>
+            <option value="">BA</option>
+            <option value="">CE</option>
+            <option value="">ES</option>
+            <option value="">GO</option>
+            <option value="">MA</option>
+            <option value="">MT</option>
+            <option value="">MS</option>
+            <option value="">MG</option>
+            <option value="">PA</option>
+            <option value="">PB</option>
+            <option value="">PR</option>
+            <option value="">PE</option>
+            <option value="">PI</option>
+            <option value="">RJ</option>
+            <option value="">RN</option>
+            <option value="">RS</option>
+            <option value="">RO</option>
+            <option value="">RR</option>
+            <option value="">SC</option>
+            <option value="">SP</option>
+            <option value="">SE</option>
+            <option value="">TO</option>
+            <option value="">DF</option>
+          </select>
+
+          <label for="Endereco">Rua:</label>
+          <input
+            type="text"
+            name="endereco"
+            id="endereco"
+            placeholder="Sua rua."
+          />
+
+          <label for="cep">CEP:</label>
+          <input type="text" name="cep" id="cep" placeholder="00000-000" />
+        </fieldset>
+      </section>
+      <br />
+      <fieldset>
+        <h3>SOBRE O ARTIGO:</h3>
+        <section>
+          <label for=""><h3>Área do artigo:</h3></label>
+          <input
+            type="radio"
+            name="Área do artigo:"
+            id="As novas tecnologias de informação e comunicação (NTICs) na Educação;"
+          />As novas tecnologias de informação e comunicação (NTICs) na
+          Educação; <br />
+          <input
+            type="radio"
+            name="Área do artigo:"
+            id="Bullyng e violência escolar;"
+          />Bullyng e violência escolar; <br />
+          <input
+            type="radio"
+            name="Área do artigo:"
+            id="Flexibilização Curricular nas escolas; "
+          />Flexibilização Curricular nas escolas; <br />
+          <input
+            type="radio"
+            name="Área do artigo:"
+            id="Políticas Nacionais para Educação Infantil;"
+          />Políticas Nacionais para Educação Infantil; <br />
+          <input
+            type="radio"
+            name="Área do artigo:"
+            id="Reforma do Ensino Médio;"
+          />Reforma do Ensino Médio; <br />
+          <input
+            type="radio"
+            name="Área do artigo:"
+            id="Escola em Tempo Integral;"
+          />Escola em Tempo Integral; <br />
+        </section>
+        <h3>Arquivo a ser enviado</h3>
+
+        <label></label><br />
+        <input type="file" name="example1" />
+        <br />
+      </fieldset>
+      <br />
+    <fieldset>
+      <button type="reset">Resetar</button>
+      <button type="">Enviar Dados</button></a>
+    </fieldset>
+    <br />
+    </form>
+
+    
+    <footer>
+      <fieldset>
+        <p>
+          Feito por: Júlia Dornelas Silva, estudante do 2° ano de técnico em
+          Informática
+        </p>
+        <p>Publicado em: 03/05/2023</p>
+      </fieldset>
+    </footer>
+  </body>
+</html>
