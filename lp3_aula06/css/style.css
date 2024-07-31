@@ -1,0 +1,21 @@
+
+.titulo{
+    background-color: #000000;
+}
+.menu {
+    height: 100vh;
+}   
+
+.dados {
+    background-color: #8caaa2;
+}
+
+html{
+    height: 100%;
+    background-color: #000000;
+}
+body{
+    height: 100%;
+    width: 100%;
+    
+}
