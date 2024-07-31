@@ -1,0 +1,25 @@
+
+.titulo{
+    background-color: #ebbbc7;
+}
+.menu {
+    height: 100vh;
+}   
+
+.dados {
+    background-color: #ffffff;
+}
+
+html{
+    height: 100%;
+    background-color: #000000;
+}
+body{
+    height: 100%;
+    width: 100%; 
+    
+}
+
+.corzinha{
+    background-color: #ebbbc7;
+}
