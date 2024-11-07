@@ -1,0 +1,26 @@
+body {
+    background-color: #C7D9D2;
+}
+
+.menu {
+    background-color: #85A6A6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    min-height: 500px;
+}
+
+.menu nav a {
+    background-color: #4D7A8C;
+    margin-bottom: 2px;
+    color: #fff;
+}
+
+.menu nav a:hover {
+    font-weight: bold;
+    color: #fff;
+}
+
+.table {
+    margin-top: 10px;
+}
